@@ -3,7 +3,7 @@ import menu from "./assets/menu.png";
 import word from "./assets/Group 15.png";
 import press from "./assets/press.png";
 import vision from "./assets/vision.png";
-
+import bg from "./assets/background.png";
 function App() {
   return (
     <>
@@ -49,7 +49,9 @@ function App() {
               <div className="flex flex-wrap justify-center  gap-10 ">
                 <div className=" border rounded  p-5">
                   <img src={word} />
-                  <h4 className="text-center">Core Wordpress</h4>
+                  <h4 className="text-center text-lg font-bold">
+                    Core Wordpress
+                  </h4>
                   <p className="text-center">
                     Hub IT allows your business and
                     <br />
@@ -61,7 +63,9 @@ function App() {
                 </div>
                 <div className="border rounded p-5">
                   <img src={press} />
-                  <h4 className="text-center">Core Wordpress</h4>
+                  <h4 className="text-center text-lg font-bold">
+                    Core Wordpress
+                  </h4>
                   <p className="text-center">
                     Hub IT allows your business and
                     <br />
@@ -73,7 +77,9 @@ function App() {
                 </div>
                 <div className="border rounded p-5 justify-center">
                   <img src={word} />
-                  <h4 className="text-center">Core Wordpress</h4>
+                  <h4 className="text-center text-lg font-bold">
+                    Core Wordpress
+                  </h4>
                   <p className="text-center">
                     Hub IT allows your business and
                     <br />
@@ -93,18 +99,25 @@ function App() {
                   <div className="flex-1">
                     <img src={vision} />
                   </div>
-                  <div className="flex-1 ">
-                    <h5>COMPANY'S VISION</h5>
-                    <h1>IT solutions for your business.</h1>
-                    <p>
+                  <div className="flex-1 py-20">
+                    <h5 className="">COMPANY'S VISION</h5>
+                    <h1 className="text-[36px] font-bold">
+                      IT solutions for your business.
+                    </h1>
+                    <p className="mt-5">
                       Hub IT allows your business and technology computers to
                       store, transmit, analyze, and manipulate big data in the
                       digital world.
                     </p>
-                    <button className="bg-primary p-5">READ MORE</button>
+                    <button className="bg-primary p-5 mt-5">READ MORE</button>
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+          <div className="py-20">
+            <div className="">
+              <img src={bg} />
             </div>
           </div>
         </div>
