@@ -1,5 +1,7 @@
 import logo from "./assets/logo.png";
 import menu from "./assets/menu.png";
+import word from "./assets/Group 15.png";
+import press from "./assets/press.png";
 
 function App() {
   return (
@@ -38,6 +40,48 @@ function App() {
               <div className="flex items-center p-5">
                 <button className="bg-primary p-4 mt-5">DISCOVER HUB</button>
                 <p className="p-5">Hotline: (733)865-5485</p>
+              </div>
+            </div>
+
+            {/* wordpress */}
+            <div className="py-20">
+              <div className="flex gap-5 items-center justify-center">
+                <div className="flex-1 border rounded p-5">
+                  <img src={word} />
+                  <h4>Core Wordpress</h4>
+                  <p>
+                    Hub IT allows your business and
+                    <br />
+                    technology computers to store,
+                    <br />
+                    analyze, and manipulate big data in <br />
+                    the digital world.
+                  </p>
+                </div>
+                <div className="flex-1">
+                  <img src={press} />
+                  <h4>Core Wordpress</h4>
+                  <p>
+                    Hub IT allows your business and
+                    <br />
+                    technology computers to store,
+                    <br />
+                    analyze, and manipulate big data in <br />
+                    the digital world.
+                  </p>
+                </div>
+                <div className="flex-1">
+                  <img src={word} />
+                  <h4>Core Wordpress</h4>
+                  <p>
+                    Hub IT allows your business and
+                    <br />
+                    technology computers to store,
+                    <br />
+                    analyze, and manipulate big data in <br />
+                    the digital world.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
