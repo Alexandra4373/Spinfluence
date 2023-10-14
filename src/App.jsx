@@ -4,6 +4,11 @@ import word from "./assets/Group 15.png";
 import press from "./assets/press.png";
 import vision from "./assets/vision.png";
 import bg from "./assets/background.png";
+import IT from "./assets/IT.png";
+import data from "./assets/Data.png";
+import cat from "./assets/Category.png";
+import wallet from "./assets/Wallet.png";
+import edit from "./assets/Edit.png";
 function App() {
   return (
     <>
@@ -102,15 +107,67 @@ function App() {
                   <div className="flex-1 py-20">
                     <h5 className="">COMPANY'S VISION</h5>
                     <h1 className="text-[36px] font-bold">
-                      IT solutions for your business.
+                      IT solutions <br />
+                      for your business.
                     </h1>
                     <p className="mt-5">
-                      Hub IT allows your business and technology computers to
-                      store, transmit, analyze, and manipulate big data in the
-                      digital world.
+                      Hub IT allows your business and technology <br />{" "}
+                      computers to store, transmit, analyze, and <br />{" "}
+                      manipulate big data in the digital world.
                     </p>
-                    <button className="bg-primary p-5 mt-5">READ MORE</button>
+                    <button className="bg-primary p-5 mt-5 border rounded">
+                      READ MORE
+                    </button>
                   </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="py-20">
+              <div className="flex flex-col justify-center items-center">
+                <h1 className="text-[36px] font-bold">
+                  IT solutions for your business.
+                </h1>
+                <p className="mt-5">
+                  Hub IT allows your business and technology computers to store,
+                  transmit,
+                  <br /> analyze, and manipulate big data in the digital world.
+                </p>
+              </div>
+              <div className="flex py-10">
+                <div className="flex-1">
+                  <img src={IT} />
+                  <div className=" flex justify-center  ">
+                    <button>IT Security</button>
+                  </div>
+                  <p>
+                    Hub IT allows your business and technology computers to
+                    store, transmit, analyze, and manipulate big data in the
+                    digital world.
+                  </p>
+                </div>
+
+                <div className="flex-1">
+                  <img src={data} />
+                  <div className=" flex justify-center  ">
+                    <button>Mobile data</button>
+                  </div>
+                  <p>
+                    Hub IT allows your business and technology computers to
+                    store, transmit, analyze, and manipulate big data in the
+                    digital world.
+                  </p>
+                </div>
+                <div className="flex-1">
+                  <img src={data} />
+                  <div className=" flex justify-center  ">
+                    <button>IT Security</button>
+                  </div>
+                  <p>
+                    Hub IT allows your business and technology computers to
+                    store, transmit, analyze, and manipulate big data in the
+                    digital world.
+                  </p>
                 </div>
               </div>
             </div>
@@ -118,6 +175,56 @@ function App() {
           <div className="py-20">
             <div className="">
               <img src={bg} />
+            </div>
+          </div>
+
+          <div className="container py-20">
+            <h1 className="flex justify-center items-center text-[38px] font-bold">
+              Why our products are different
+            </h1>
+
+            <div className="py-20">
+              <div className="flex flex-wrap justify-start gap-10 ">
+                <div className=" p-10">
+                  <img src={cat} />
+                  <h4 className="text-start text-lg font-bold">
+                    Solve problem Real time
+                  </h4>
+                  <p className="text-start mt-5">
+                    Amet minim molit non deserunt <br /> ullamco est sit aliqua
+                    dolor do amet sint.
+                    <br />
+                  </p>
+                  <p className="mt-5 text-primary">Learn more</p>
+                </div>
+
+                <div className="p-10">
+                  <img src={wallet} />
+                  <h4 className="text-start text-lg font-bold">
+                    Secured & Safe Payments
+                  </h4>
+                  <p className="text-start mt-5">
+                    Amet minim molit non deserunt <br /> ullamco est sit aliqua
+                    dolor do amet sint.
+                    <br />
+                  </p>
+                  <p className="mt-5 text-primary">Learn more</p>
+                </div>
+
+                <div className=" p-10 justify-start">
+                  <img src={edit} />
+                  <h4 className="text-start text-lg font-bold">
+                    24/7 Customer support
+                  </h4>
+                  <p className="text-start mt-5">
+                    Amet minim molit non deserunt <br /> ullamco est sit aliqua
+                    dolor do amet sint.
+                    <br />
+                  </p>
+
+                  <p className="mt-5 text-primary">Learn more</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
