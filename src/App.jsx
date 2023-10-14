@@ -9,6 +9,7 @@ import data from "./assets/Data.png";
 import cat from "./assets/Category.png";
 import wallet from "./assets/Wallet.png";
 import edit from "./assets/Edit.png";
+// import cta from "./assets/cta.jpg";
 function App() {
   return (
     <>
@@ -177,7 +178,7 @@ function App() {
               <img src={bg} />
             </div>
           </div>
-
+          {/* testimonials */}
           <div className="container py-20">
             <h1 className="flex justify-center items-center text-[38px] font-bold">
               Why our products are different
@@ -187,7 +188,7 @@ function App() {
               <div className="flex flex-wrap justify-start gap-10 ">
                 <div className=" p-10">
                   <img src={cat} />
-                  <h4 className="text-start text-lg font-bold">
+                  <h4 className="text-start text-lg font-bold mt-5">
                     Solve problem Real time
                   </h4>
                   <p className="text-start mt-5">
@@ -200,7 +201,7 @@ function App() {
 
                 <div className="p-10">
                   <img src={wallet} />
-                  <h4 className="text-start text-lg font-bold">
+                  <h4 className="text-start text-lg font-bold mt-5">
                     Secured & Safe Payments
                   </h4>
                   <p className="text-start mt-5">
@@ -213,7 +214,7 @@ function App() {
 
                 <div className=" p-10 justify-start">
                   <img src={edit} />
-                  <h4 className="text-start text-lg font-bold">
+                  <h4 className="text-start text-lg font-bold mt-5">
                     24/7 Customer support
                   </h4>
                   <p className="text-start mt-5">
@@ -225,6 +226,21 @@ function App() {
                   <p className="mt-5 text-primary">Learn more</p>
                 </div>
               </div>
+            </div>
+          </div>
+
+          {/* Contact us */}
+          <div className="container py-20">
+            <div className="flex flex-col justify-center items-center text-white bg-cta p-10">
+              <h1 className="text-xl font-bold">
+                Ready to get started?Get your
+                <br />
+                finance out of the way
+              </h1>
+
+              <button className=" rounded-lg pl-10 bg-primary">
+                Contact us
+              </button>
             </div>
           </div>
         </div>

@@ -9,6 +9,7 @@ export default {
       },
       backgroundImage: {
         hero: "url('/src/assets/hero.png')",
+        cta: "url('/src/assets/cta.jpg')",
       },
 
       colors: {
