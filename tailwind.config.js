@@ -7,6 +7,9 @@ export default {
         padding: "2rem",
         center: true,
       },
+      backgroundImage: {
+        hero: "url('/src/assets/hero.png')",
+      },
     },
   },
   plugins: [],

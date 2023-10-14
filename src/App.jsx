@@ -24,6 +24,20 @@ function App() {
                 <img src={menu} />
               </div>
             </div>
+            {/* Hero */}
+            <div className=" flex flex-col justify-center items-center bg-hero text-white p-20">
+              <h1>
+                The dest IT service for
+                <br /> your security
+              </h1>
+              <p>
+                Hub IT allows your business and technology computers to store
+                and
+                <br /> manipulate big data in the digital world.
+              </p>
+              <button>DISCOVER HUB</button>
+              <p>Hotline: (733)865-5485</p>
+            </div>
           </div>
         </div>
       </div>
