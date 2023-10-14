@@ -2,6 +2,7 @@ import logo from "./assets/logo.png";
 import menu from "./assets/menu.png";
 import word from "./assets/Group 15.png";
 import press from "./assets/press.png";
+import vision from "./assets/vision.png";
 
 function App() {
   return (
@@ -46,8 +47,8 @@ function App() {
             {/* wordpress */}
             <div className="py-20">
               <div className="flex flex-wrap justify-center  gap-10 ">
-                <div className=" border rounded p-5">
-                  <img src={word} className="items-center" />
+                <div className=" border rounded  p-5">
+                  <img src={word} />
                   <h4 className="text-center">Core Wordpress</h4>
                   <p className="text-center">
                     Hub IT allows your business and
@@ -81,6 +82,27 @@ function App() {
                     analyze, and manipulate big data in <br />
                     the digital world.
                   </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Company's vision */}
+            <div className="py-20">
+              <div className="container">
+                <div className="flex">
+                  <div className="flex-1">
+                    <img src={vision} />
+                  </div>
+                  <div className="flex-1 ">
+                    <h5>COMPANY'S VISION</h5>
+                    <h1>IT solutions for your business.</h1>
+                    <p>
+                      Hub IT allows your business and technology computers to
+                      store, transmit, analyze, and manipulate big data in the
+                      digital world.
+                    </p>
+                    <button className="bg-primary p-5">READ MORE</button>
+                  </div>
                 </div>
               </div>
             </div>
