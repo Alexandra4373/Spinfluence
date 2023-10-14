@@ -45,11 +45,11 @@ function App() {
 
             {/* wordpress */}
             <div className="py-20">
-              <div className="flex gap-5 items-center justify-center">
-                <div className="flex-1 border rounded p-5">
-                  <img src={word} />
-                  <h4>Core Wordpress</h4>
-                  <p>
+              <div className="flex flex-wrap justify-center  gap-10 ">
+                <div className=" border rounded p-5">
+                  <img src={word} className="items-center" />
+                  <h4 className="text-center">Core Wordpress</h4>
+                  <p className="text-center">
                     Hub IT allows your business and
                     <br />
                     technology computers to store,
@@ -58,10 +58,10 @@ function App() {
                     the digital world.
                   </p>
                 </div>
-                <div className="flex-1">
+                <div className="border rounded p-5">
                   <img src={press} />
-                  <h4>Core Wordpress</h4>
-                  <p>
+                  <h4 className="text-center">Core Wordpress</h4>
+                  <p className="text-center">
                     Hub IT allows your business and
                     <br />
                     technology computers to store,
@@ -70,10 +70,10 @@ function App() {
                     the digital world.
                   </p>
                 </div>
-                <div className="flex-1">
+                <div className="border rounded p-5 justify-center">
                   <img src={word} />
-                  <h4>Core Wordpress</h4>
-                  <p>
+                  <h4 className="text-center">Core Wordpress</h4>
+                  <p className="text-center">
                     Hub IT allows your business and
                     <br />
                     technology computers to store,
