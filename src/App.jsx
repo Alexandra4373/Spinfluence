@@ -25,18 +25,20 @@ function App() {
               </div>
             </div>
             {/* Hero */}
-            <div className=" flex flex-col justify-center items-center bg-hero text-white p-20">
-              <h1>
-                The dest IT service for
+            <div className=" flex flex-col justify-center items-center bg-hero text-white p-10">
+              <h1 className="text-[48px] font-semibold">
+                The best IT service for
                 <br /> your security
               </h1>
-              <p>
+              <p className="p-5">
                 Hub IT allows your business and technology computers to store
                 and
                 <br /> manipulate big data in the digital world.
               </p>
-              <button>DISCOVER HUB</button>
-              <p>Hotline: (733)865-5485</p>
+              <div className="flex items-center p-5">
+                <button className="bg-primary p-4 mt-5">DISCOVER HUB</button>
+                <p className="p-5">Hotline: (733)865-5485</p>
+              </div>
             </div>
           </div>
         </div>
