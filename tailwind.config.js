@@ -16,7 +16,7 @@ export default {
         primary: "#1E47FF",
       },
       screens: {
-        xs: "375px",
+        xs: "360px",
         sm: "640px",
         // => @media (min-width: 640px) { ... }
 
