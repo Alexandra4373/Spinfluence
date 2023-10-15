@@ -11,7 +11,8 @@ import data from "./assets/Data.png";
 import cat from "./assets/Category.png";
 import wallet from "./assets/Wallet.png";
 import edit from "./assets/Edit.png";
-import close from "./assets/close";
+import close from "./assets/close.png";
+
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const toggleMenu = () => {
@@ -31,22 +32,35 @@ function App() {
               <div className="lg:hidden">
                 <button
                   onClick={toggleMenu}
-                  className="text-white cursor-pointer"
+                  className="text-white absolute top-4 right-4 cursor-pointer"
                 >
                   {isMenuOpen ? (
-                    <img src={close} alt="Close Icon" />
+                    <img
+                      src={close}
+                      alt="Close Icon"
+                      className="w-[25%] h-[25%]"
+                    />
                   ) : (
                     <img src={menu} alt="Menu Icon" />
                   )}
                 </button>
               </div>
-              <ul className="flex gap-5 cursor-pointer">
+              <ul className="lg:flex gap-5 cursor-pointer sm:hidden">
                 <li>Home</li>
                 <li>Service</li>
                 <li>About</li>
                 <li>Contact</li>
               </ul>
-              <div className="flex gap-5">
+              <ul
+                className={`lg:hidden gap-5 ${isMenuOpen ? "block" : "hidden"}`}
+              >
+                <li>Home</li>
+                <li>Service</li>
+                <li>About</li>
+                <li>Contact</li>
+              </ul>
+
+              <div className="lg:flex gap-5 sm:hidden">
                 <h6>Login</h6>
                 <img src={menu} />
               </div>
