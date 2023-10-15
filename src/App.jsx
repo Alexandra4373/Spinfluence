@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 import logo from "./assets/logo.png";
 import menu from "./assets/menu.png";
 import word from "./assets/Group 15.png";
@@ -9,8 +11,12 @@ import data from "./assets/Data.png";
 import cat from "./assets/Category.png";
 import wallet from "./assets/Wallet.png";
 import edit from "./assets/Edit.png";
-// import cta from "./assets/cta.jpg";
+import close from "./assets/close";
 function App() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
   return (
     <>
       <div className="">
@@ -21,6 +27,18 @@ function App() {
             <div className="flex items-center justify-between py-4 ">
               <div className="">
                 <img src={logo} />
+              </div>
+              <div className="lg:hidden">
+                <button
+                  onClick={toggleMenu}
+                  className="text-white cursor-pointer"
+                >
+                  {isMenuOpen ? (
+                    <img src={close} alt="Close Icon" />
+                  ) : (
+                    <img src={menu} alt="Menu Icon" />
+                  )}
+                </button>
               </div>
               <ul className="flex gap-5 cursor-pointer">
                 <li>Home</li>
@@ -240,6 +258,7 @@ function App() {
               <p>
                 {" "}
                 If you deliver enough value, making money becomes the easy part.
+                <br />
                 Why should you be stressful? Let us make this easier for you.
               </p>
 
