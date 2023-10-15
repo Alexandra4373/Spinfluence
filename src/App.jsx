@@ -25,10 +25,12 @@ function App() {
         <div className="">
           <div className="container">
             {/* Nav */}
+
             <div className="flex items-center justify-between py-4 ">
               <div className="">
                 <img src={logo} />
               </div>
+
               <div className="lg:hidden">
                 <button
                   onClick={toggleMenu}
@@ -45,12 +47,14 @@ function App() {
                   )}
                 </button>
               </div>
-              <ul className="lg:flex gap-5 cursor-pointer sm:hidden">
+
+              <ul className="lg:flex gap-5 cursor-pointer sm:hidden xs:hidden">
                 <li>Home</li>
                 <li>Service</li>
                 <li>About</li>
                 <li>Contact</li>
               </ul>
+
               <ul
                 className={`lg:hidden gap-5 ${isMenuOpen ? "block" : "hidden"}`}
               >
@@ -60,7 +64,7 @@ function App() {
                 <li>Contact</li>
               </ul>
 
-              <div className="lg:flex gap-5 sm:hidden">
+              <div className="lg:flex gap-5 sm:hidden xs:hidden">
                 <h6>Login</h6>
                 <img src={menu} />
               </div>
