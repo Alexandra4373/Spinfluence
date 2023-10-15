@@ -237,6 +237,11 @@ function App() {
                 <br />
                 finance out of the way
               </h1>
+              <p>
+                {" "}
+                If you deliver enough value, making money becomes the easy part.
+                Why should you be stressful? Let us make this easier for you.
+              </p>
 
               <button className=" rounded-lg pl-10 bg-primary">
                 Contact us
