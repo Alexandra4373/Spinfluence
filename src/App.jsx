@@ -31,15 +31,17 @@ function App() {
                 <img src={logo} />
               </div>
 
-              <ul className="lg:flex gap-5 cursor-pointer sm:hidden xs:hidden">
-                <li>Home</li>
+              <ul className="font-poppins lg:flex gap-5 cursor-pointer sm:hidden xs:hidden">
+                <li className="underline text-primary">Home</li>
                 <li>Service</li>
                 <li>About</li>
                 <li>Contact</li>
               </ul>
 
               <ul
-                className={`lg:hidden gap-5 ${isMenuOpen ? "block" : "hidden"}`}
+                className={`font-poppins lg:hidden gap-5 ${
+                  isMenuOpen ? "block" : "hidden"
+                }`}
               >
                 <li>Home</li>
                 <li>Service</li>
@@ -64,25 +66,28 @@ function App() {
                 </button>
               </div>
 
-              <div className="lg:flex gap-5 sm:hidden xs:hidden cursor-pointer">
+              <div className="font-poppins lg:flex gap-5 sm:hidden xs:hidden cursor-pointer">
                 <h6>Login</h6>
                 <img src={menu} className="" />
               </div>
             </div>
+
             {/* Hero */}
             <div className=" flex flex-col justify-center items-center bg-hero text-white p-10">
-              <h1 className="text-[48px] font-semibold">
+              <h1 className="text-[50px] font-poppins font-semibold">
                 The best IT service for
                 <br /> your security
               </h1>
-              <p className="p-5">
+              <p className="p-5 font-poppins">
                 Hub IT allows your business and technology computers to store
                 and
                 <br /> manipulate big data in the digital world.
               </p>
               <div className="flex items-center p-5">
-                <button className="bg-primary p-4 mt-5">DISCOVER HUB</button>
-                <p className="p-5">Hotline: (733)865-5485</p>
+                <button className="bg-primary p-4 font-inter mt-5">
+                  DISCOVER HUB
+                </button>
+                <p className="p-5 font-inter">Hotline: (733)865-5485</p>
               </div>
             </div>
 
