@@ -74,17 +74,17 @@ function App() {
 
             {/* Hero */}
             <div className=" flex flex-col justify-center items-center bg-hero text-white p-10">
-              <h1 className="text-[50px] font-poppins font-semibold">
+              <h1 className="text-[50px] line-h-69.25 font-poppins font-semibold">
                 The best IT service for
                 <br /> your security
               </h1>
-              <p className="p-5 font-poppins">
+              <p className="p-3 font-inter font normal text-[16px]">
                 Hub IT allows your business and technology computers to store
                 and
                 <br /> manipulate big data in the digital world.
               </p>
-              <div className="flex items-center p-5">
-                <button className="bg-primary p-4 font-inter mt-5">
+              <div className="flex justify-center items-center p-3">
+                <button className="bg-primary p-4 text-[14px] line-h-14 font-normal font-inter mt-5">
                   DISCOVER HUB
                 </button>
                 <p className="p-5 font-inter">Hotline: (733)865-5485</p>
