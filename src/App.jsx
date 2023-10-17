@@ -96,9 +96,9 @@ function App() {
             {/* wordpress */}
             <div className="py-20">
               <div className="flex flex-wrap justify-center  gap-10 ">
-                <div className=" border rounded p-5">
+                <div className=" border-primary border rounded p-5">
                   <img src={word} />
-                  <h4 className="text-center text-lg font-bold">
+                  <h4 className="text-center text-lg font-bold ">
                     Core Wordpress
                   </h4>
                   <p className="text-center">
@@ -110,9 +110,9 @@ function App() {
                     the digital world.
                   </p>
                 </div>
-                <div className="border rounded p-5">
+                <div className="border border-primary rounded p-5">
                   <img src={press} />
-                  <h4 className="text-center text-lg font-bold">
+                  <h4 className="text-center text-lg font-bold ">
                     Core Wordpress
                   </h4>
                   <p className="text-center">
@@ -124,9 +124,9 @@ function App() {
                     the digital world.
                   </p>
                 </div>
-                <div className="border rounded p-5 justify-center">
+                <div className="border border-primary rounded p-5 justify-center">
                   <img src={word} />
-                  <h4 className="text-center text-lg font-bold">
+                  <h4 className="text-center text-lg font-bold ">
                     Core Wordpress
                   </h4>
                   <p className="text-center">
@@ -149,18 +149,20 @@ function App() {
                     <img src={vision} />
                   </div>
                   <div className="flex-1 py-20">
-                    <h5 className="">COMPANY'S VISION</h5>
-                    <h1 className="text-[36px] font-bold">
+                    <h5 className="text-[16px] line-h-332 font-poppins font-semibold">
+                      COMPANY'S VISION
+                    </h5>
+                    <h1 className="text-[48px] line-h-64 font-poppins font-normal">
                       IT solutions <br />
                       for your business.
                     </h1>
-                    <p className="mt-5">
+                    <p className="text-[20px] line-h-32 font-inter font-normal mt-5">
                       Hub IT allows your business and technology <br />{" "}
                       computers to store, transmit, analyze, and <br />{" "}
                       manipulate big data in the digital world.
                     </p>
-                    <button className="bg-primary p-5 mt-5 border rounded">
-                      READ MORE
+                    <button className="bg-primary p-5  px-9 mt-5 border rounded fonr-poppins font-bold text-white text-center text-[16px] line-h-24">
+                      Read more
                     </button>
                   </div>
                 </div>
@@ -287,9 +289,7 @@ function App() {
                 Why should you be stressful? Let us make this easier for you.
               </p>
 
-              <button className=" rounded-md pl-10 bg-primary">
-                Contact us
-              </button>
+              <button className=" rounded-md p-3 bg-primary">Contact us</button>
             </div>
           </div>
         </div>
