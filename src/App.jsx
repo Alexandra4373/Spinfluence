@@ -171,10 +171,10 @@ function App() {
 
             <div className="py-20">
               <div className="flex flex-col justify-center items-center">
-                <h1 className="text-[36px] font-bold">
+                <h1 className="text-[48px] line-h-64 font-poppins font-semibold">
                   IT solutions for your business.
                 </h1>
-                <p className="mt-5">
+                <p className="text-[20px] line-h-36.3 font-inter font-normal mt-5">
                   Hub IT allows your business and technology computers to store,
                   transmit,
                   <br /> analyze, and manipulate big data in the digital world.
