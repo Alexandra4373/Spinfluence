@@ -84,17 +84,19 @@ function App() {
                 <br /> manipulate big data in the digital world.
               </p>
               <div className="flex justify-center items-center p-3">
-                <button className="bg-primary p-4 text-[14px] line-h-14 font-normal font-inter mt-5">
+                <button className="bg-primary  rounded-md p-4 text-[14px] line-h-14 font-normal font-inter mt-5">
                   DISCOVER HUB
                 </button>
-                <p className="p-5 font-inter">Hotline: (733)865-5485</p>
+                <p className="p-5 font-inter underline line-h-14 text-center text-[14px]">
+                  Hotline: (733)865-5485
+                </p>
               </div>
             </div>
 
             {/* wordpress */}
             <div className="py-20">
               <div className="flex flex-wrap justify-center  gap-10 ">
-                <div className=" border rounded  p-5">
+                <div className=" border rounded p-5">
                   <img src={word} />
                   <h4 className="text-center text-lg font-bold">
                     Core Wordpress
@@ -285,7 +287,7 @@ function App() {
                 Why should you be stressful? Let us make this easier for you.
               </p>
 
-              <button className=" rounded-lg pl-10 bg-primary">
+              <button className=" rounded-md pl-10 bg-primary">
                 Contact us
               </button>
             </div>
