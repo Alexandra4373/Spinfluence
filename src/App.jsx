@@ -184,9 +184,11 @@ function App() {
                 <div className="flex-1">
                   <img src={IT} />
                   <div className=" flex justify-center  ">
-                    <button>IT Security</button>
+                    <button className="text-[30px] line-h-30 font-inter font-semibold">
+                      IT Security
+                    </button>
                   </div>
-                  <p>
+                  <p className="text-[20px] line-h-36.3 font-inter font-normal">
                     Hub IT allows your business and technology computers to
                     store, transmit, analyze, and manipulate big data in the
                     digital world.
@@ -196,9 +198,11 @@ function App() {
                 <div className="flex-1">
                   <img src={data} />
                   <div className=" flex justify-center  ">
-                    <button>Mobile data</button>
+                    <button className="text-[30px] line-h-30 font-inter font-semibold">
+                      Mobile data
+                    </button>
                   </div>
-                  <p>
+                  <p className="text-[20px] line-h-36.3 font-inter font-normal">
                     Hub IT allows your business and technology computers to
                     store, transmit, analyze, and manipulate big data in the
                     digital world.
@@ -207,9 +211,11 @@ function App() {
                 <div className="flex-1">
                   <img src={data} />
                   <div className=" flex justify-center  ">
-                    <button>IT Security</button>
+                    <button className="text-[30px] line-h-30 font-inter font-semibold">
+                      For Companies
+                    </button>
                   </div>
-                  <p>
+                  <p className="text-[20px] line-h-36.3 font-inter font-normal">
                     Hub IT allows your business and technology computers to
                     store, transmit, analyze, and manipulate big data in the
                     digital world.
