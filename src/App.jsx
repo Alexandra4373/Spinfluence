@@ -315,7 +315,9 @@ function App() {
               </div>
               <div className="flex-1">
                 <ul>
-                  <li className="text-second">Solution</li>
+                  <li className="text-second text-[18px] line-h-21.6 font-barlow font-bold">
+                    Solution
+                  </li>
                   <li>Financial Strategy</li>
                   <li>Advertising</li>
                   <li>SMM</li>
@@ -325,7 +327,9 @@ function App() {
               </div>
               <div className="flex-1">
                 <ul>
-                  <li>Company</li>
+                  <li className="text-second text-[18px] line-h-21.6 font-barlow font-bold">
+                    Company
+                  </li>
                   <li>8910 University Center Lane</li>
                   <li>Suite 620 San Deigo, CA 92102</li>
                   <li>Phone 858-490-6910</li>
