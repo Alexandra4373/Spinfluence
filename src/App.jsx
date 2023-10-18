@@ -180,11 +180,11 @@ function App() {
                   <br /> analyze, and manipulate big data in the digital world.
                 </p>
               </div>
-              <div className="flex py-10">
+              <div className="flex py-10 relative">
                 <div className="flex-1">
-                  <img src={IT} />
+                  <img src={IT} className="z-0" />
                   <div className=" flex justify-center  ">
-                    <button className="text-[30px] line-h-30 font-inter font-semibold">
+                    <button className="text-[30px] line-h-30 font-inter font-semibold shadow-lg  shadow-primary absolute top-1/2">
                       IT Security
                     </button>
                   </div>
