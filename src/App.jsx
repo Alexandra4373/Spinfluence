@@ -12,6 +12,9 @@ import cat from "./assets/Category.png";
 import wallet from "./assets/Wallet.png";
 import edit from "./assets/Edit.png";
 import close from "./assets/close.png";
+import fb from "./assets/fb.png";
+import twitter from "./assets/x.png";
+import google from "./assets/google.png";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -296,6 +299,28 @@ function App() {
               </p>
 
               <button className=" rounded-md p-3 bg-primary">Contact us</button>
+            </div>
+          </div>
+
+          {/* Footer */}
+          <div className="">
+            <div className="">
+              <img src={logo} />
+
+              <div className="">
+                <img src={twitter} />
+                <img src={fb} />
+                <img src={google} />
+              </div>
+
+              <ul>
+                <li>Solution</li>
+                <li>Financial Strategy</li>
+                <li>Advertising</li>
+                <li>SMM</li>
+                <li>SEO</li>
+                <li>Google AdWords</li>
+              </ul>
             </div>
           </div>
         </div>
