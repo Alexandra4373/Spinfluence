@@ -303,24 +303,49 @@ function App() {
           </div>
 
           {/* Footer */}
-          <div className="">
-            <div className="">
-              <img src={logo} />
-
-              <div className="">
-                <img src={twitter} />
-                <img src={fb} />
-                <img src={google} />
+          <div className="container">
+            <div className="flex">
+              <div className="flex-1">
+                <img src={logo} />
+                <div className="flex">
+                  <img src={twitter} />
+                  <img src={fb} />
+                  <img src={google} />
+                </div>
               </div>
-
-              <ul>
-                <li>Solution</li>
-                <li>Financial Strategy</li>
-                <li>Advertising</li>
-                <li>SMM</li>
-                <li>SEO</li>
-                <li>Google AdWords</li>
-              </ul>
+              <div className="flex-1">
+                <ul>
+                  <li>Solution</li>
+                  <li>Financial Strategy</li>
+                  <li>Advertising</li>
+                  <li>SMM</li>
+                  <li>SEO</li>
+                  <li>Google AdWords</li>
+                </ul>
+              </div>
+              <div className="flex-1">
+                <ul>
+                  <li>Company</li>
+                  <li>8910 University Center Lane</li>
+                  <li>Suite 620 San Deigo, CA 92102</li>
+                  <li>Phone 858-490-6910</li>
+                  <li>Fax 858-490-6985</li>
+                </ul>
+              </div>
+            </div>
+            <div className="flex">
+              <div className="flex-1 ">
+                <ul className="flex gap-10">
+                  <li>About</li>
+                  <li>Services</li>
+                  <li>Pricing</li>
+                  <li>Blog</li>
+                  <li>Contact</li>
+                </ul>
+              </div>
+              <div className="flex-1">
+                <p>2018 Casumi, Made by Deo Themes.</p>
+              </div>
             </div>
           </div>
         </div>
