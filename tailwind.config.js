@@ -6,6 +6,7 @@ export default {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
         inter: ["Inter", "sans-serif"],
+        barlow: ["Barlow", "sans-serif"],
       },
 
       container: {
@@ -19,6 +20,7 @@ export default {
 
       colors: {
         primary: "#1E47FF",
+        second: "rgba(22, 19, 62, 1)",
       },
       screens: {
         xs: "360px",

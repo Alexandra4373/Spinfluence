@@ -307,7 +307,7 @@ function App() {
             <div className="flex">
               <div className="flex-1">
                 <img src={logo} />
-                <div className="flex">
+                <div className="flex gap-10 py-10">
                   <img src={twitter} />
                   <img src={fb} />
                   <img src={google} />
@@ -315,7 +315,7 @@ function App() {
               </div>
               <div className="flex-1">
                 <ul>
-                  <li>Solution</li>
+                  <li className="text-second">Solution</li>
                   <li>Financial Strategy</li>
                   <li>Advertising</li>
                   <li>SMM</li>
