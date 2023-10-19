@@ -294,17 +294,23 @@ function App() {
 
           {/* Latest News */}
           <div className="">
-            <div className="flex ">
+            <div className="flex text-white ">
               <div className="z-10 p-10 mr-[-70px] ">
                 <img src={test} />
               </div>
               <div className="bg-primary ml-[-30px] p-10 flex flex-col text-center justify-center items-center ">
-                <h2 className="font-poppins">Satisfied Customers</h2>
-                <p>
-                  <span className="font-play"> &quot;</span>Every detail has
-                  been taken care these team are realy amazing and talented!
-                  They can help me with fast and accurate solutions to all kinds
-                  of issues. Love it! Five stars for them.
+                <h2 className="font-poppins font-bold text-[36px] line-h-48">
+                  Satisfied Customers
+                </h2>
+                <p className="font-merri font-light text-[24px] line-h-36">
+                  <span className="font-play font-normal text-[70px] line-h-46">
+                    {" "}
+                    &quot;
+                  </span>
+                  Every detail has been taken care these team are <br /> realy
+                  amazing and talented! They can help me with <br />
+                  fast and accurate solutions to all kinds of issues.
+                  <br /> Love it! Five stars for them.
                 </p>
                 <p>Joeby Ragpa</p>
                 <p>Associate</p>
