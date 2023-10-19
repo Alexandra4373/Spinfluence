@@ -302,7 +302,7 @@ function App() {
                 <h2 className="font-poppins font-bold text-[36px] line-h-48">
                   Satisfied Customers
                 </h2>
-                <p className="font-merri font-light text-[24px] line-h-36">
+                <p className="font-merri font-light text-[24px] line-h-36 ml-7">
                   <span className="font-play font-normal text-[70px] line-h-46">
                     {" "}
                     &quot;
