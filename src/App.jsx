@@ -310,16 +310,19 @@ function App() {
 
           {/* Latest news */}
           <div className="container  py-20">
-            <div className="flex">
-              <h1>Latest news</h1>
+            <h1 className="flex justify-center items-center text-[38px] font-bold">
+              Latest News
+            </h1>
+            <div className="flex gap-10 py-10">
               <div className="flex-1">
                 <img src={blog01} />
                 <p>Business Mistakes to Avoid When Starting a Business</p>
 
-                <div className="">
+                <div className="flex">
                   <img src={profile} />
-                  <p>
-                    Alexander Samokhin<span>- July 06,2018</span>
+                  <p className="text-primary">
+                    Alexander Samokhin
+                    <span className="text-black">- July 06,2018</span>
                   </p>
                 </div>
               </div>
@@ -331,10 +334,11 @@ function App() {
                   of preparing your taxes
                 </p>
 
-                <div className="">
+                <div className="flex">
                   <img src={profile} />
-                  <p>
-                    Alexander Samokhin<span>- July 06,2018</span>
+                  <p className="text-primary">
+                    Alexander Samokhin
+                    <span className="text-black">- July 06,2018</span>
                   </p>
                 </div>
               </div>
@@ -343,10 +347,11 @@ function App() {
                 <img src={blog03} />
                 <p>Investment Update, Succesful people ask better questions</p>
 
-                <div className="">
+                <div className="flex">
                   <img src={profile} />
-                  <p>
-                    Alexander Samokhin<span>- July 06,2018</span>
+                  <p className="text-primary">
+                    Alexander Samokhin
+                    <span className="text-black">- July 06,2018</span>
                   </p>
                 </div>
               </div>
