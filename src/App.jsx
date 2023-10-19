@@ -283,6 +283,20 @@ function App() {
             </div>
           </div>
 
+          <div className="">
+            <div className="container">
+              <h2>Satisfied Customers</h2>
+              <p>
+                <span>"</span>Every detail has been taken care these team are
+                realy amazing and talented! They can help me with fast and
+                accurate solutions to all kinds of issues. Love it! Five stars
+                for them.
+              </p>
+              <p>Joeby Ragpa</p>
+              <p>Associate</p>
+            </div>
+          </div>
+
           {/* Contact us */}
           <div className="container py-20">
             <div className="flex flex-col justify-center items-center text-white bg-cta p-10">
@@ -314,7 +328,7 @@ function App() {
                 </div>
               </div>
               <div className="flex-1">
-                <ul>
+                <ul className="font-barlow">
                   <li className="text-second text-[18px] line-h-21.6 font-barlow font-bold">
                     Solution
                   </li>
@@ -326,8 +340,8 @@ function App() {
                 </ul>
               </div>
               <div className="flex-1">
-                <ul>
-                  <li className="text-second text-[18px] line-h-21.6 font-barlow font-bold">
+                <ul className="font-barlow">
+                  <li className="text-second text-[18px] line-h-21.6  font-bold">
                     Company
                   </li>
                   <li>8910 University Center Lane</li>
@@ -339,7 +353,7 @@ function App() {
             </div>
             <div className="flex">
               <div className="flex-1 ">
-                <ul className="flex gap-10">
+                <ul className="flex gap-10 font-barlow">
                   <li>About</li>
                   <li>Services</li>
                   <li>Pricing</li>
@@ -347,7 +361,7 @@ function App() {
                   <li>Contact</li>
                 </ul>
               </div>
-              <div className="flex-1">
+              <div className="flex-1 font-barlow">
                 <p>2018 Casumi, Made by Deo Themes.</p>
               </div>
             </div>
