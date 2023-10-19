@@ -367,16 +367,16 @@ function App() {
           {/* Contact us */}
           <div className="container py-20">
             <div className="flex flex-col justify-center items-center text-white bg-cta p-10">
-              <h1 className="text-xl font-bold">
+              <h1 className="text-[36px line-h-48] font-bold font-poppins">
                 Ready to get started?Get your
                 <br />
                 finance out of the way
               </h1>
-              <p>
+              <p className="font-barlow font-medium text-[18px] line-h-32 mt-5">
                 {" "}
                 If you deliver enough value, making money becomes the easy part.
-                <br />
-                Why should you be stressful? Let us make this easier for you.
+                Why <br /> should you be stressful? Let us make this easier for
+                you.
               </p>
 
               <button className=" rounded-md p-3 bg-primary">Contact us</button>
