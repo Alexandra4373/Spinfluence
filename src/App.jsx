@@ -311,6 +311,16 @@ function App() {
           <div className="py-20">
             <div className="container">
               <h1>Latest news</h1>
+              <div className="">
+                <img src={blog01} />
+              </div>
+              <div className="">
+                <img src={blog02} />
+              </div>
+
+              <div className="">
+                <img src={blog03} />
+              </div>
             </div>
           </div>
 
