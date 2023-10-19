@@ -19,6 +19,7 @@ import test from "./assets/testimonial.jpg";
 import blog01 from "./assets/blog_post_1.png";
 import blog02 from "./assets/blog_post_2.jpg";
 import blog03 from "./assets/blog_post_3.jpg";
+import profile from "./assets/Ellipse.png";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -308,11 +309,16 @@ function App() {
           </div>
 
           {/* Latest news */}
-          <div className="py-20">
-            <div className="container">
+          <div className="container  py-20">
+            <div className="flex">
               <h1>Latest news</h1>
               <div className="">
                 <img src={blog01} />
+                <p>Business Mistakes to Avoid When Starting a Business</p>
+
+                <div className="">
+                  <img src={profile} />
+                </div>
               </div>
               <div className="">
                 <img src={blog02} />
