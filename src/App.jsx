@@ -366,8 +366,8 @@ function App() {
 
           {/* Contact us */}
           <div className="container py-20">
-            <div className="flex flex-col justify-center items-center text-white bg-cta p-10">
-              <h1 className="text-[36px line-h-48] font-bold font-poppins">
+            <div className="flex flex-col justify-center items-center text-white bg-cta opacity-1 p-20">
+              <h1 className="text-[36px] line-h-48] font-bold font-poppins">
                 Ready to get started?Get your
                 <br />
                 finance out of the way
@@ -379,7 +379,9 @@ function App() {
                 you.
               </p>
 
-              <button className=" rounded-md p-3 bg-primary">Contact us</button>
+              <button className=" rounded-3xl  mt-5 p-3 bg-primary font-barlow">
+                Contact us
+              </button>
             </div>
           </div>
 
