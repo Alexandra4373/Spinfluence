@@ -323,7 +323,7 @@ function App() {
 
                 <div className="flex mt-5">
                   <img src={profile} />
-                  <p className="text-primary">
+                  <p className="text-primary font-barlow font-medium text-[14px] line-h-28">
                     Alexander Samokhin
                     <span className="text-black">- July 06,2018</span>
                   </p>
@@ -334,12 +334,12 @@ function App() {
                 <img src={blog02} />
                 <p className="font-merri font-bold text-[20px] line-h-30 mt-5">
                   Utilize these nine resources to help
-                  <br /> you take the stress out of preparing your taxes
+                  <br /> you take the stress out of preparing <br /> your taxes
                 </p>
 
                 <div className="flex mt-5">
                   <img src={profile} />
-                  <p className="text-primary">
+                  <p className="text-primary font-barlow font-medium text-[14px] line-h-28">
                     Alexander Samokhin
                     <span className="text-black">- July 06,2018</span>
                   </p>
@@ -355,7 +355,7 @@ function App() {
 
                 <div className="flex mt-5">
                   <img src={profile} />
-                  <p className="text-primary">
+                  <p className="text-primary font-barlow font-medium text-[14px] line-h-28">
                     Alexander Samokhin
                     <span className="text-black">- July 06,2018</span>
                   </p>
