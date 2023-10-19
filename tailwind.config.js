@@ -9,6 +9,7 @@ export default {
         barlow: ["Barlow", "sans-serif"],
         play: ["Playfair Display", "serif"],
         merri: ["Merriweather", "serif"],
+        dmsans: ["DM Sans", "sans-serif"],
       },
 
       container: {
