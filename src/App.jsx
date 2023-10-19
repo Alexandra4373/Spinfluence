@@ -16,6 +16,9 @@ import fb from "./assets/fb.png";
 import twitter from "./assets/x.png";
 import google from "./assets/google.png";
 import test from "./assets/testimonial.jpg";
+import blog01 from "./assets/blog_post_1.png";
+import blog02 from "./assets/blog_post_2.png";
+import blog03 from "./assets/blog_post_3.png";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -305,6 +308,11 @@ function App() {
           </div>
 
           {/* Latest news */}
+          <div className="py-20">
+            <div className="container">
+              <h1>Latest news</h1>
+            </div>
+          </div>
 
           {/* Contact us */}
           <div className="container py-20">
