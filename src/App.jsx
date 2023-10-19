@@ -314,27 +314,14 @@ function App() {
               Latest News
             </h1>
             <div className="flex gap-10 py-10">
-              <div className="flex-1">
+              <div className="flex-1 border rounded">
                 <img src={blog01} />
-                <p>Business Mistakes to Avoid When Starting a Business</p>
-
-                <div className="flex">
-                  <img src={profile} />
-                  <p className="text-primary">
-                    Alexander Samokhin
-                    <span className="text-black">- July 06,2018</span>
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex-1">
-                <img src={blog02} />
-                <p>
-                  Utilize these nine resources to help you take the stress out
-                  of preparing your taxes
+                <p className="font-merri font-bold text-[20px] line-h-30 mt-5">
+                  Business Mistakes to Avoid When <br />
+                  Starting a Business
                 </p>
 
-                <div className="flex">
+                <div className="flex mt-5">
                   <img src={profile} />
                   <p className="text-primary">
                     Alexander Samokhin
@@ -343,11 +330,30 @@ function App() {
                 </div>
               </div>
 
-              <div className="flex-1">
-                <img src={blog03} />
-                <p>Investment Update, Succesful people ask better questions</p>
+              <div className="flex-1  border rounded">
+                <img src={blog02} />
+                <p className="font-merri font-bold text-[20px] line-h-30 mt-5">
+                  Utilize these nine resources to help
+                  <br /> you take the stress out of preparing your taxes
+                </p>
 
-                <div className="flex">
+                <div className="flex mt-5">
+                  <img src={profile} />
+                  <p className="text-primary">
+                    Alexander Samokhin
+                    <span className="text-black">- July 06,2018</span>
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex-1  border rounded">
+                <img src={blog03} />
+                <p className="font-merri font-bold text-[20px] line-h-30 mt-5">
+                  Investment Update, Succesful people <br /> ask better
+                  questions
+                </p>
+
+                <div className="flex mt-5">
                   <img src={profile} />
                   <p className="text-primary">
                     Alexander Samokhin
