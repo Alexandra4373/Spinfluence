@@ -17,8 +17,8 @@ import twitter from "./assets/x.png";
 import google from "./assets/google.png";
 import test from "./assets/testimonial.jpg";
 import blog01 from "./assets/blog_post_1.png";
-import blog02 from "./assets/blog_post_2.png";
-import blog03 from "./assets/blog_post_3.png";
+import blog02 from "./assets/blog_post_2.jpg";
+import blog03 from "./assets/blog_post_3.jpg";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
