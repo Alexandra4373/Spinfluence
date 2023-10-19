@@ -15,6 +15,7 @@ import close from "./assets/close.png";
 import fb from "./assets/fb.png";
 import twitter from "./assets/x.png";
 import google from "./assets/google.png";
+import test from "./assets/testimonial.jpg";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -284,16 +285,21 @@ function App() {
           </div>
 
           <div className="">
-            <div className="container">
-              <h2>Satisfied Customers</h2>
-              <p>
-                <span> &quot;</span>Every detail has been taken care these team
-                are realy amazing and talented! They can help me with fast and
-                accurate solutions to all kinds of issues. Love it! Five stars
-                for them.
-              </p>
-              <p>Joeby Ragpa</p>
-              <p>Associate</p>
+            <div className="flex ">
+              <div className="z-10">
+                <img src={test} />
+              </div>
+              <div className="bg-primary ml-[-30px] p-10 flex flex-col text-center justify-center items-center z-0">
+                <h2>Satisfied Customers</h2>
+                <p>
+                  <span> &quot;</span>Every detail has been taken care these
+                  team are realy amazing and talented! They can help me with
+                  fast and accurate solutions to all kinds of issues. Love it!
+                  Five stars for them.
+                </p>
+                <p>Joeby Ragpa</p>
+                <p>Associate</p>
+              </div>
             </div>
           </div>
 
