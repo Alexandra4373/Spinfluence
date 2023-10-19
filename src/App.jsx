@@ -287,8 +287,8 @@ function App() {
             <div className="container">
               <h2>Satisfied Customers</h2>
               <p>
-                <span>"</span>Every detail has been taken care these team are
-                realy amazing and talented! They can help me with fast and
+                <span> &quot;</span>Every detail has been taken care these team
+                are realy amazing and talented! They can help me with fast and
                 accurate solutions to all kinds of issues. Love it! Five stars
                 for them.
               </p>
