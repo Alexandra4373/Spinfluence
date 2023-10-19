@@ -20,6 +20,7 @@ import blog01 from "./assets/blog_post_1.png";
 import blog02 from "./assets/blog_post_2.jpg";
 import blog03 from "./assets/blog_post_3.jpg";
 import profile from "./assets/Ellipse.png";
+import arrow from "./assets/Arrow.png";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -247,25 +248,28 @@ function App() {
               <div className="flex flex-wrap justify-start gap-10 ">
                 <div className=" p-10">
                   <img src={cat} />
-                  <h4 className="text-start text-lg font-bold mt-5">
+                  <h4 className="text-start text-[24px] line-h-31.25 font-bold font-dmsans mt-5">
                     Solve problem Real time
                   </h4>
-                  <p className="text-start mt-5">
+                  <p className="text-start mt-5 font-dmsans font-medium text-[16px] line-h-28">
                     Amet minim molit non deserunt <br /> ullamco est sit aliqua
-                    dolor do amet sint.
+                    dolor do <br /> amet sint.
                     <br />
                   </p>
-                  <p className="mt-5 text-primary">Learn more</p>
+                  <div className="flex items-center ">
+                    <p className="mt-5 text-primary">Learn more</p>
+                    <img src={arrow} />
+                  </div>
                 </div>
 
                 <div className="p-10">
                   <img src={wallet} />
-                  <h4 className="text-start text-lg font-bold mt-5">
+                  <h4 className="text-start text-[24px] line-h-31.25 font-bold font-dmsans mt-5">
                     Secured & Safe Payments
                   </h4>
-                  <p className="text-start mt-5">
+                  <p className="text-start mt-5 font-dmsans font-medium text-[16px] line-h-28">
                     Amet minim molit non deserunt <br /> ullamco est sit aliqua
-                    dolor do amet sint.
+                    dolor do <br /> amet sint.
                     <br />
                   </p>
                   <p className="mt-5 text-primary">Learn more</p>
@@ -273,12 +277,12 @@ function App() {
 
                 <div className=" p-10 justify-start">
                   <img src={edit} />
-                  <h4 className="text-start text-lg font-bold mt-5">
+                  <h4 className="text-start text-[24px] line-h-31.25 font-bold font-dmsans mt-5">
                     24/7 Customer support
                   </h4>
-                  <p className="text-start mt-5">
+                  <p className="text-start mt-5 font-dmsans font-medium text-[16px] line-h-28">
                     Amet minim molit non deserunt <br /> ullamco est sit aliqua
-                    dolor do amet sint.
+                    dolor do <br /> amet sint.
                     <br />
                   </p>
 
