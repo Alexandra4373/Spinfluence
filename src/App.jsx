@@ -286,16 +286,16 @@ function App() {
 
           <div className="">
             <div className="flex ">
-              <div className="z-10">
+              <div className="z-00 ">
                 <img src={test} />
               </div>
-              <div className="bg-primary ml-[-30px] p-10 flex flex-col text-center justify-center items-center z-0">
-                <h2>Satisfied Customers</h2>
+              <div className="bg-primary ml-[-30px] p-10 flex flex-col text-center justify-center items-center z-10">
+                <h2 className="font-poppins">Satisfied Customers</h2>
                 <p>
-                  <span> &quot;</span>Every detail has been taken care these
-                  team are realy amazing and talented! They can help me with
-                  fast and accurate solutions to all kinds of issues. Love it!
-                  Five stars for them.
+                  <span className="font-play"> &quot;</span>Every detail has
+                  been taken care these team are realy amazing and talented!
+                  They can help me with fast and accurate solutions to all kinds
+                  of issues. Love it! Five stars for them.
                 </p>
                 <p>Joeby Ragpa</p>
                 <p>Associate</p>

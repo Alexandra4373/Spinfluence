@@ -7,6 +7,8 @@ export default {
         poppins: ["Poppins", "sans-serif"],
         inter: ["Inter", "sans-serif"],
         barlow: ["Barlow", "sans-serif"],
+        play: ["Playfair Display", "serif"],
+        merri: ["Merriweather", "serif"],
       },
 
       container: {
