@@ -312,20 +312,43 @@ function App() {
           <div className="container  py-20">
             <div className="flex">
               <h1>Latest news</h1>
-              <div className="">
+              <div className="flex-1">
                 <img src={blog01} />
                 <p>Business Mistakes to Avoid When Starting a Business</p>
 
                 <div className="">
                   <img src={profile} />
+                  <p>
+                    Alexander Samokhin<span>- July 06,2018</span>
+                  </p>
                 </div>
               </div>
-              <div className="">
+
+              <div className="flex-1">
                 <img src={blog02} />
+                <p>
+                  Utilize these nine resources to help you take the stress out
+                  of preparing your taxes
+                </p>
+
+                <div className="">
+                  <img src={profile} />
+                  <p>
+                    Alexander Samokhin<span>- July 06,2018</span>
+                  </p>
+                </div>
               </div>
 
-              <div className="">
+              <div className="flex-1">
                 <img src={blog03} />
+                <p>Investment Update, Succesful people ask better questions</p>
+
+                <div className="">
+                  <img src={profile} />
+                  <p>
+                    Alexander Samokhin<span>- July 06,2018</span>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
