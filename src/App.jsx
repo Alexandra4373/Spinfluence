@@ -82,10 +82,31 @@ function App() {
             </div>
 
             {/* Hero */}
-            <div className=" flex flex-col justify-center items-center bg-hero text-white p-10">
+            <div className="sm:hidden xs:hidden  lg:flex flex-col justify-center items-center bg-hero text-white p-10">
               <h1 className="text-[50px] line-h-69.25 font-poppins font-semibold">
                 The best IT service for
                 <br /> your security
+              </h1>
+              <p className="p-3 font-inter font normal text-[16px]">
+                Hub IT allows your business and technology computers to store
+                and
+                <br /> manipulate big data in the digital world.
+              </p>
+              <div className="flex justify-center items-center p-3">
+                <button className="bg-primary  rounded-md p-4 text-[14px] line-h-14 font-normal font-inter mt-5">
+                  DISCOVER HUB
+                </button>
+                <p className="p-5 font-inter underline line-h-14 text-center text-[14px]">
+                  Hotline: (733)865-5485
+                </p>
+              </div>
+            </div>
+
+            {/* mobile view */}
+
+            <div className=" lg:hidden flex flex-col justify-center items-center bg-hero text-white p-10">
+              <h1 className="text-[25px] line-h-35 font-poppins font-semibold">
+                The best IT service for your security
               </h1>
               <p className="p-3 font-inter font normal text-[16px]">
                 Hub IT allows your business and technology computers to store
