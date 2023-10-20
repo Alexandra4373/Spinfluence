@@ -113,7 +113,7 @@ function App() {
                 and
                 <br /> manipulate big data in the digital world.
               </p>
-              <div className="flex justify-center items-center p-3">
+              <div className="flex sm:flex-col justify-center items-center p-3">
                 <button className="bg-primary  rounded-md p-4 text-[14px] line-h-14 font-normal font-inter mt-5">
                   DISCOVER HUB
                 </button>
