@@ -190,10 +190,10 @@ function App() {
                 </p>
               </div>
               <div className="flex py-10 relative">
-                <div className="flex-1">
-                  <img src={IT} className="z-0" />
-                  <div className=" flex justify-center  ">
-                    <button className="text-[30px] line-h-30 font-inter font-semibold shadow-lg  shadow-primary absolute top-1/2">
+                <div className="flex-1 ">
+                  <img src={IT} />
+                  <div className=" flex justify-center z-0 ">
+                    <button className="text-[30px] line-h-30 font-inter font-semibold shadow-lg   shadow-primary p-5 mt-[-20px]">
                       IT Security
                     </button>
                   </div>
@@ -258,7 +258,7 @@ function App() {
                   </p>
                   <div className="flex items-center ">
                     <p className="mt-5 text-primary">Learn more</p>
-                    <img src={arrow} />
+                    <img src={arrow} className="pt-5" />
                   </div>
                 </div>
 
@@ -272,7 +272,10 @@ function App() {
                     dolor do <br /> amet sint.
                     <br />
                   </p>
-                  <p className="mt-5 text-primary">Learn more</p>
+                  <div className="flex items-center">
+                    <p className="mt-5 text-primary">Learn more</p>
+                    <img src={arrow} className="pt-5" />
+                  </div>
                 </div>
 
                 <div className=" p-10 justify-start">
@@ -286,7 +289,10 @@ function App() {
                     <br />
                   </p>
 
-                  <p className="mt-5 text-primary">Learn more</p>
+                  <div className="flex items-center">
+                    <p className="mt-5 text-primary">Learn more</p>
+                    <img src={arrow} className="pt-5" />
+                  </div>
                 </div>
               </div>
             </div>

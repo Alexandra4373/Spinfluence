@@ -9,6 +9,6 @@
 @tailwind components;
 @tailwind utilities;
 
-button:hover {
+/* button:hover {
   background-color: blueviolet;
-}
+} */
