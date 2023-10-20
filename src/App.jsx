@@ -408,7 +408,7 @@ function App() {
               </div>
               <div className="flex-1">
                 <ul className="font-barlow">
-                  <li className="text-second text-[18px] line-h-21.6 font-barlow font-bold">
+                  <li className="text-second text-[18px] line-h-21.6 font-barlow pb-10 font-bold">
                     Solution
                   </li>
                   <li>Financial Strategy</li>
@@ -420,7 +420,7 @@ function App() {
               </div>
               <div className="flex-1">
                 <ul className="font-barlow">
-                  <li className="text-second text-[18px] line-h-21.6  font-bold">
+                  <li className="text-second text-[18px] line-h-21.6 pb-10 font-bold">
                     Company
                   </li>
                   <li>8910 University Center Lane</li>
@@ -430,7 +430,7 @@ function App() {
                 </ul>
               </div>
             </div>
-            <div className="flex">
+            <div className="flex py-20">
               <div className="flex-1 ">
                 <ul className="flex gap-10 font-barlow">
                   <li>About</li>
@@ -440,7 +440,7 @@ function App() {
                   <li>Contact</li>
                 </ul>
               </div>
-              <div className="flex-1 font-barlow">
+              <div className="flex-1 font-barlow ml-10">
                 <p>2018 Casumi, Made by Deo Themes.</p>
               </div>
             </div>
