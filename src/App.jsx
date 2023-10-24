@@ -219,7 +219,7 @@ function App() {
                 <div className="flex-1 ">
                   <img src={IT} />
                   <div className=" flex justify-center z-0 ">
-                    <button className="text-[30px] line-h-30 font-inter font-semibold shadow-lg   shadow-primary  mt-[-20px]">
+                    <button className="text-[30px] line-h-30 font-inter font-semibold border bg-white shadow-lg shadow-primary  mt-[-20px]">
                       IT Security
                     </button>
                   </div>
@@ -233,7 +233,7 @@ function App() {
                 <div className="flex-1">
                   <img src={data} />
                   <div className=" flex justify-center  ">
-                    <button className="text-[30px] line-h-30 font-inter font-semibold shadow-lg shadow-primary mt-[-20px]">
+                    <button className="text-[30px] line-h-30 font-inter font-semibold border bg-white shadow-lg shadow-primary mt-[-20px]">
                       Mobile data
                     </button>
                   </div>
@@ -246,7 +246,7 @@ function App() {
                 <div className="flex-1 ">
                   <img src={data} />
                   <div className=" flex justify-center  ">
-                    <button className=" text-[30px] line-h-30 font-inter font-semibold shadow-lg shadow-primary mt-[-20px]">
+                    <button className=" text-[30px] line-h-30 font-inter font-semibold border bg-white shadow-lg shadow-primary mt-[-20px]">
                       For Companies
                     </button>
                   </div>
@@ -472,7 +472,7 @@ function App() {
                   <li>Contact</li>
                 </ul>
               </div>
-              <div className="flex-1 font-barlow ml-10">
+              <div className="flex-1 flex justify-end font-barlow ml-10">
                 <p>2018 Casumi, Made by Deo Themes.</p>
               </div>
             </div>
