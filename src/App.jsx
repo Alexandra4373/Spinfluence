@@ -39,7 +39,7 @@ function App() {
                 <img src={logo} />
               </div>
 
-              <ul className="font-poppins gap-5 cursor-pointer sm:hidden ">
+              <ul className="font-poppins md:flex gap-5 cursor-pointer sm:hidden ">
                 <li className="underline text-primary">Home</li>
                 <li>Service</li>
                 <li>About</li>
@@ -74,14 +74,14 @@ function App() {
                 </button>
               </div> */}
 
-              <div className="font-poppins lg:flex gap-5 sm:hidden xs:hidden cursor-pointer">
+              <div className="font-poppins md:flex gap-5  cursor-pointer">
                 <h6>Login</h6>
                 <img src={menu} className="" />
               </div>
             </div>
 
             {/* Hero */}
-            <div className="sm:hidden xs:hidden  lg:flex flex-col justify-center items-center bg-hero text-white p-10">
+            <div className="md:flex flex-col justify-center items-center bg-hero text-white p-10">
               <h1 className="text-[50px] line-h-69.25 font-poppins font-semibold">
                 The best IT service for
                 <br /> your security
