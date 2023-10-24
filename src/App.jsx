@@ -219,7 +219,7 @@ function App() {
                 <div className="flex-1 ">
                   <img src={IT} />
                   <div className=" flex justify-center z-0 ">
-                    <button className="text-[30px] line-h-30 font-inter font-semibold shadow-lg   shadow-primary p-5 mt-[-20px]">
+                    <button className="text-[30px] line-h-30 font-inter font-semibold shadow-lg   shadow-primary  mt-[-20px]">
                       IT Security
                     </button>
                   </div>
@@ -233,7 +233,7 @@ function App() {
                 <div className="flex-1">
                   <img src={data} />
                   <div className=" flex justify-center  ">
-                    <button className="text-[30px] line-h-30 font-inter font-semibold">
+                    <button className="text-[30px] line-h-30 font-inter font-semibold shadow-lg shadow-primary mt-[-20px]">
                       Mobile data
                     </button>
                   </div>
@@ -243,10 +243,10 @@ function App() {
                     digital world.
                   </p>
                 </div>
-                <div className="flex-1">
+                <div className="flex-1 ">
                   <img src={data} />
                   <div className=" flex justify-center  ">
-                    <button className="text-[30px] line-h-30 font-inter font-semibold">
+                    <button className=" text-[30px] line-h-30 font-inter font-semibold shadow-lg shadow-primary mt-[-20px]">
                       For Companies
                     </button>
                   </div>
