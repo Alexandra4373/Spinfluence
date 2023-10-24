@@ -1,4 +1,4 @@
-import { useState } from "react";
+// import { useState } from "react";
 
 import logo from "./assets/logo.png";
 import menu from "./assets/menu.png";
@@ -23,10 +23,9 @@ import profile from "./assets/Ellipse.png";
 import arrow from "./assets/Arrow.png";
 
 function App() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
+  // const [isMenuOpen, setIsMenuOpen] = useState(false);
+  // const toggleMenu = () => {
+  //   setIsMenuOpen(!isMenuOpen); };
   return (
     <>
       <div className="">
@@ -40,14 +39,14 @@ function App() {
                 <img src={logo} />
               </div>
 
-              <ul className="font-poppins lg:flex gap-5 cursor-pointer sm:hidden xs:hidden">
+              <ul className="font-poppins gap-5 cursor-pointer sm:hidden ">
                 <li className="underline text-primary">Home</li>
                 <li>Service</li>
                 <li>About</li>
                 <li>Contact</li>
               </ul>
 
-              <ul
+              {/* <ul
                 className={`font-poppins lg:hidden gap-5 ${
                   isMenuOpen ? "block" : "hidden"
                 }`}
@@ -56,9 +55,9 @@ function App() {
                 <li>Service</li>
                 <li>About</li>
                 <li>Contact</li>
-              </ul>
+              </ul> */}
 
-              <div className="lg:hidden">
+              {/* <div className="lg:hidden">
                 <button
                   onClick={toggleMenu}
                   className="text-white absolute top-4 right-4 cursor-pointer"
@@ -73,7 +72,7 @@ function App() {
                     <img src={menu} alt="Menu Icon" />
                   )}
                 </button>
-              </div>
+              </div> */}
 
               <div className="font-poppins lg:flex gap-5 sm:hidden xs:hidden cursor-pointer">
                 <h6>Login</h6>
