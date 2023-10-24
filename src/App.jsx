@@ -103,7 +103,7 @@ function App() {
 
             {/* mobile view */}
 
-            <div className=" lg:hidden flex flex-col justify-center items-center bg-hero text-white p-10">
+            {/* <div className=" lg:hidden flex flex-col justify-center items-center bg-hero text-white p-10">
               <h1 className="text-[25px] line-h-35 font-poppins font-semibold">
                 The best IT service for your security
               </h1>
@@ -120,7 +120,7 @@ function App() {
                   Hotline: (733)865-5485
                 </p>
               </div>
-            </div>
+            </div> */}
 
             {/* wordpress */}
             <div className="py-20">
