@@ -125,7 +125,9 @@ function App() {
             <div className="py-20">
               <div className="flex flex-wrap justify-center  gap-10 ">
                 <div className=" border-primary border rounded p-5">
-                  <img src={word} />
+                  <div className="flex justify-center items-center">
+                    <img src={word} />
+                  </div>
                   <h4 className="text-center text-lg font-bold ">
                     Core Wordpress
                   </h4>
@@ -139,7 +141,9 @@ function App() {
                   </p>
                 </div>
                 <div className="border border-primary rounded p-5">
-                  <img src={press} />
+                  <div className="flex justify-center items-center">
+                    <img src={press} />
+                  </div>
                   <h4 className="text-center text-lg font-bold ">
                     Core Wordpress
                   </h4>
@@ -152,8 +156,11 @@ function App() {
                     the digital world.
                   </p>
                 </div>
-                <div className="border border-primary rounded p-5 justify-center">
-                  <img src={word} />
+
+                <div className="border border-primary rounded p-5 ">
+                  <div className="flex justify-center items-center">
+                    <img src={word} />
+                  </div>
                   <h4 className="text-center text-lg font-bold ">
                     Core Wordpress
                   </h4>
